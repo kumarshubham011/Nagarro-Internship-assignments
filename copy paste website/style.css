@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.one, .two, .three{
+    text-align: center;
+    padding: 70px;
+}
+
+#btn{
+    padding: 15px;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    align-content: center;
+}
+
+#text{
+    text-align: justify;
+}

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.ablock{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }

@@ -1,0 +1,47 @@
+#box{
+    background-color: #18978F;
+    height: 350px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body{
+    background-color: #54BAB9;
+}
+
+#box.show{
+    visibility: visible;
+}
+
+.container{
+    border-radius: 25px;
+}
+
+#submission{
+    margin: 10px 45%;
+}
+
+.click{
+    border-radius: 5px;
+    background-color: #18978F;
+    color: black;
+}
+
+.btn{
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.form-control{
+    background-color: #DBEDF3;
+}
+
+.one h3 span{
+    position: relative;
+    margin-right: 10px;
+}
+
+.one h3 span i{
+    color: orangered;
+}
