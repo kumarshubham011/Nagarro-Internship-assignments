@@ -2,6 +2,7 @@ let b=document.getElementById("black");
 let g=document.getElementById("green");
 let y=document.getElementById("yellow");
 let bl=document.getElementById("blue");
+let dy=document.getElementById("bdy");
 b.addEventListener('click',function1);
 g.addEventListener('click',function2);
 y.addEventListener('click',function3);
@@ -10,6 +11,7 @@ ele = document.getElementById("row2");
 txt_area = document.getElementById("text-area");
 
 function function1(){
+    dy.style.backgroundColor= "black";
     ele.style.backgroundColor= "black";
     txt_area.style.backgroundColor = "black";
     txt_area.style.color= "white";
@@ -17,6 +19,7 @@ function function1(){
 }
 
 function function2(){
+    dy.style.backgroundColor= "#116530";
     ele.style.backgroundColor= "#116530";
     txt_area.style.backgroundColor = "#116530";
     txt_area.style.color= "black";
@@ -24,6 +27,7 @@ function function2(){
 }
 
 function function3(){
+    dy.style.backgroundColor= "yellow";
     ele.style.backgroundColor= "yellow";
     txt_area.style.backgroundColor = "yellow";
     txt_area.style.color= "black";
@@ -31,6 +35,7 @@ function function3(){
 }
 
 function function4(){
+    dy.style.backgroundColor= "#3cdfff";
     ele.style.backgroundColor= "#3cdfff";
     txt_area.style.backgroundColor = "#3cdfff";
     txt_area.style.color= "white";
