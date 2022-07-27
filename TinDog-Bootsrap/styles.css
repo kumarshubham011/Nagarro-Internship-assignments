@@ -5,10 +5,10 @@
     color: azure;
 }
 
-p { font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
+p { line-height: 1.5;  font-weight: 900;}
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* navigation bar */
@@ -40,6 +40,8 @@ p { font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* icons */
@@ -55,6 +57,8 @@ p { font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
 #features{
     padding: 7% 15%;
     text-align: center;
+    background-color: white;
+    position: relative;
 }
 
 .feat{
@@ -80,6 +84,12 @@ p { font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
     text-align: center;
     background-color: #ef8172;
     color: azure;
+}
+
+h1{
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3.5rem;
 }
 
 h2{
@@ -129,6 +139,7 @@ p{
 #pricing{
     padding: 100px;
     text-align: center;
+    background-color: white;
 }
 
 .pricing-column{
