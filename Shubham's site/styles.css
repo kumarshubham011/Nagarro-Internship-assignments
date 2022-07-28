@@ -4,6 +4,23 @@ body{
   font-family: 'Roboto Slab', serif;
 }
 
+nav {
+  display: flex; 
+  justify-content: space-between; 
+  padding-left: 2rem;
+  padding-right: 2rem; 
+  background: #CDF0EA; 
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
 h1{
   font-size: 4rem;
   margin-top: 50px;
@@ -20,6 +37,10 @@ h2{
 }
 
 h3{
+  font-family: 'Arvo', serif;
+  color: #11999E;
+}
+h4{
   font-family: 'Arvo', serif;
   color: #11999E;
 }
@@ -159,4 +180,34 @@ a:hover{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: 'Arvo', serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #11999E;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+th{
+  text-align: center;
 }
