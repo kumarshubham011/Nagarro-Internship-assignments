@@ -13,6 +13,10 @@ for(item of buttons){
             screenValue = "";
             screen.value = screenValue;
         }
+        else if (buttonText == 'D'){
+            screenValue = screenValue.substring(0,screenValue.length-1);
+            screen.value = screenValue;
+        }
         else if (buttonText == '='){
             screen.value = eval(screenValue);
         }
