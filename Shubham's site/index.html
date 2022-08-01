@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Berkshire+Swash&family=Roboto+Slab&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,9 +17,9 @@
   <nav>
     <h4>Shubham Kumar</h4>
     <ul>
-      <li><a href="#">About me</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Hobbies</a></li>
+      <li><a href="#edu">Education</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
     </ul>
   </nav>
 
@@ -35,7 +36,7 @@
     <div class="profile">
       <img class="profile-image" src="https://drive.google.com/uc?export=view&id=10l0ocJdL_MdBbxAbAcPUGo3iNkrXFNWX"  alt="pfp">
       <h2>Hello.</h2>
-      <p>I'm an ECE student, who knows python Python and is currently learning Web development as an intern at Nagarro.</p>
+      <p>I'm an ECE student, who knows Python and is currently learning Web development as an intern at Nagarro.</p>
       <br>
       <span class="btn">About me</span>
       <div style="margin-top: 20px;">
@@ -50,7 +51,7 @@
     <hr>
 
 
-    <div class="skills">
+    <div class="skills" id="skill">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="web-img" src="images/browser.gif" height="60" width="70" alt="gif">
@@ -58,7 +59,15 @@
         <p>I know languages like Python and C and also know a little ML. As an ECE student I'm also aware of various concepts of electronics.</p>
       </div>
 
-      <div class="skill-row">
+      <div id="tech_skills">
+          <img class="tech-image" src="https://cdn-icons-png.flaticon.com/512/8099/8099613.png" height="60" width="70" alt="">
+          <img class="tech-image" src="https://cdn-icons-png.flaticon.com/512/2305/2305941.png" height="60" width="70" alt="">
+          <img class="tech-image" src="https://cdn-icons-png.flaticon.com/512/1287/1287038.png" height="60" width="70" alt="">
+          <img class="tech-image" src="https://cdn-icons-png.flaticon.com/512/7531/7531878.png" height="60" width="70" alt="">
+          <img class="tech-image" src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="60" width="70" alt="">   
+      </div>
+
+      <div class="skill-row" id="hobbies">
         <img class="plane-img" src="images/jet-fighter.gif" height="60" width="70" alt="">
         <h3>Hobbies</h3>
         <p>In my free time I like to read books and documentaries especially related to Fighter jets. I also like to listen to songs a lot.</p>
@@ -66,7 +75,8 @@
     </div>
     <hr>
 
-    <div class="education">
+    <div class="education" id="edu">
+      <h2>Education</h2>
       <table class="styled-table">
         <thead>
             <tr>

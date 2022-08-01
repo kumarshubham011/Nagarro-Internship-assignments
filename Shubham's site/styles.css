@@ -138,6 +138,12 @@ a:hover{
 
 }
 
+#tech-skills{
+  width: 50%;
+  margin: 80px auto;
+  
+}
+
 .web-img{
   /* 25% of parent */
   width: 25%;
@@ -153,6 +159,10 @@ a:hover{
   /* float wraps the text around the image */
   float: right;
   margin-left: 30px;
+}
+
+.tech-image{
+  margin:15px 25px;
 }
 
 .btn {
