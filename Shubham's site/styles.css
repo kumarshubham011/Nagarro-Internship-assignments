@@ -64,7 +64,7 @@ p{
 .bottom-container{
   background-color: #66BFBF;
   padding: 50px 0 20px;
-
+  margin-bottom: 0;
 }
 
 .cloud1{
@@ -165,6 +165,12 @@ a:hover{
   margin:15px 25px;
 }
 
+.tech-image:hover{
+  border: 2px solid #11999E;
+  background-color: #e2f5f2;
+  border-radius: 5px;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -220,4 +226,30 @@ a:hover{
 
 th{
   text-align: center;
+}
+
+.carousel-container{
+  width: 630px;
+  height: 520px;
+  margin-top:2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+.car_img{
+  margin: 4px;
+  width: 310px;
+  height: 250px;
+  border: 5px solid cyan;
+  border-radius: 10px;
+}
+
+.car_img:hover{
+  border-color: #e61983;
+}
+
+.proj_link{
+  margin: 0;
 }
