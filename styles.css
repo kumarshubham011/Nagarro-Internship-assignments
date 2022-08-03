@@ -1,10 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   }
 
 .ablock{
-    margin: auto;
-    text-align: center;
-    padding-top: 40px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
   }
+
+h2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: azure;
+  font-size: larger;
+}
