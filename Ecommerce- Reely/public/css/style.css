@@ -1,0 +1,669 @@
+
+:root {
+    --light:#F5F5F5;
+    --white: #FFF;
+    --font1:'Open Sans', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --red :#F44336;
+}
+b {
+    color:var(--red);
+    font-weight: bold;
+}
+
+body {
+    background-color: gainsboro;
+    padding:0;
+    margin:0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*  Designing Navbar*/
+.navbar {
+    background-color: gainsboro;
+    color: black;
+    font-family: var(--font2);
+    padding:20px 0;
+ 
+
+}
+
+
+
+.navbar-brand {
+    margin: 0;
+    font-size: 25px;
+
+    text-align:center;
+    vertical-align: center;
+    padding: 0;
+    color:var(--red);
+    font-weight: bold;
+}
+
+.nav-item {
+    padding:5px 20px;
+}
+.nav-link {
+    color:black;
+    font-family: var(--font2);
+    font-weight: normal;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    flex-direction: row;
+    font-family: var(--font2);
+
+}
+
+.form i {
+    font-size: 22px;
+    color:black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.form h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: light;
+    margin: 0 10px;
+}
+
+/*  Designing Hero Section*/
+
+.hero {
+    width:100%;
+    min-height:699px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    background-image:         linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url("../images/heroimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.herocontent {
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: transparent
+}
+
+.herocontent .display-4 {
+    color:white;
+    font-family: var(--font1);
+    padding:10px 0;
+
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.herocontent .lead {
+    color: whitesmoke;
+    font-weight: normal!important;
+    font-family: var(--font2);
+font-size: 15px;
+padding: 10px 0;
+
+line-height: 40px;
+}
+
+.herocontent .hero-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.herocontent .hero-row .herobutton {
+    background-color: var(--red);
+    color:white;
+    border: none;
+    font-family: var(--font2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hrobtn {
+    border: 2px solid var(--red)!important;
+    background-color: transparent!important;
+}
+
+.brobtn:hover {
+    border: 2px solid var(--red)!important;
+    background-color: transparent!important;
+}
+
+.herobutton:hover {
+  background-color: red;
+  transition: 0.5s linear;
+}
+
+
+.hrobtn:hover {
+    background-color: var(--red)!important;
+    transition: 0.5s linear;
+}
+/*  Designing Offer Section*/
+.offer {
+    width: 100%;
+    min-height: 600px;
+    background-image: linear-gradient(to right top, #121212, #121212, #121212, #121212, #121212);
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    text-align: left;
+}
+
+.offer .left  {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://asset.msi.com/resize/image/global/product/product_1_20180919184314_5ba22842648ea.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 300px;
+    text-align: left;
+}
+
+.offer .display-4 {
+    text-align: left;
+    font-family: var(--font1);
+    font-size: 50px;
+    padding: 30px 0;
+    color: white;
+}
+
+.offer b {
+    color:var(--red);
+}
+.offer .lead {
+    font-family: var(--font2);
+    font-size: 14px;
+    font-weight: normal;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+
+.offer .row1 {
+    width:100%;
+    display:flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.offer h3 {
+    margin-right: 30px;
+}
+
+.offer .buynow {
+    padding: 10px  10px;
+    font-family: var(--font2);
+    background-image: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);
+
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    border: none;
+
+}
+
+.offer .buynow i {
+    color:var(--white);
+}
+
+/*  Designing Product List Section*/
+
+.product-list {
+    width: 100%;
+    min-height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.product-list .container .text-left {
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom:3px solid #F44336;
+    color: black;
+    max-width: 200px;
+    margin:  30px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--font1);
+}
+
+.product {
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 00px;
+
+    flex-direction: column;
+    background-color: transparent;
+}
+
+
+.product-image {
+    width: 100%;
+    min-height: 250px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    object-fit: cover;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+
+    background-position: center;
+}
+
+ .image2 {
+    background-image: url(../images/msi.png)!important;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.image3 {
+    background-image: url(../images/msi2.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.image4 {
+    background-image: url(../images/asus.png)!important;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.image5 {
+    background-image: url(../images/c1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.image6 {
+    background-image: url(../images/c2.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.image7 {
+    background-image: url(../images/c3.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.image8 {
+    background-image: url(../images/c4.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+.image8 {
+    background-image: url(../images/c4.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.image9 {
+    background-image: url(../images/s1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.image10 {
+    background-image: url(../images/s2.png)!important;
+    background-size:50%;
+    background-position: center;
+}
+
+.image11 {
+    background-image: url(../images/s3.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+.image12 {
+    background-image: url(../images/s4.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+.product .display-4 {
+    font-size: 20px;
+    color:black;
+    padding: 10px 0;
+    font-family: var(--font1);
+    margin: 10px;
+    font-weight: normal;
+}
+
+.productrow .lead {
+    color:black;
+    margin: 10px;
+    padding: 10px 0;
+    
+    font-family: var(--font2);
+}
+
+.productrow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.productrow .buy {
+    padding: 10px  10px;
+    font-family: var(--font2);
+    background-image: linear-gradient(to right top, #f44336, #f1392b, #ee2f20, #eb2212, #e71000);
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    border: none;
+}
+
+ .productrow .buy:hover {
+     background-color: #121212;
+    color:var(--white);
+    background-image: none;
+
+}
+
+.productrow .buy:hover i {
+    color:var(--white);
+}
+
+.profile {
+    width:100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.list {
+    width:100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+/*  Designing footer Section*/
+
+.footermain {
+    width:100%;
+    min-height:100px;
+    background-color: #121212;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#footer .nav-link {
+    color:white;
+}
+
+
+
+#footer i {
+    color:#F44336;
+    font-size: 17px;
+}
+#footer h1 {
+    font-size: 17px;
+    color:white;
+    
+    
+}
+
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover {
+    color:red; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+.images1 {
+    background-image: url(/images/ss1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.images2 {
+    background-image: url(/images/ss2.png)!important;
+    background-size:50%;
+    background-position: center;
+}
+
+.images3 {
+    background-image: url(/images/ss3.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+.images4 {
+    background-image: url(/images/ss4.png)!important;
+    background-size:40%;
+    background-position: center;
+}
+
+
+
+.imagec5 {
+    background-image: url(/images/cc1.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.imagec6 {
+    background-image: url(/images/cc2.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.imagec7 {
+    background-image: url(/images/cc3.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+.imagec8 {
+    background-image: url(/images/cc4.png)!important;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.imagel1 {
+    background-image: url(/images/l1.png)!important;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.imagel2 {
+    background-image: url(/images/l2.png)!important;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.imagel3 {
+    background-image: url(/images/l3.png)!important;
+    background-size: 80%;
+    background-position: center;
+}
+
+.imagel4 {
+    background-image: url(/images/l4.png)!important;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.reviews{
+    padding-left: 9px;
+    font-size: 20px;
+}
+
+
+
+.rev-img{
+    background-image: url(../images/c1.png)!important;
+    background-position: center;
+    background-size: 60%;
+}
+
+.row{
+    text-align: center;
+}
+.details{
+    background-color: grey;
+    padding-top: 5%;
+    text-align: left;
+}
+
+.pimg{
+    background-color: rgb(203, 163, 163);
+}
+.pro-img{
+    padding-top: 13%;
+    height: 50%;
+}
+
+.div-2{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.reviews2{
+    font-size: 25px;
+}
+
+.lead2{
+    color: red;
+    font-size: 50px;
+}
+
+
+
+.cart-drawer{
+    position: relative;
+    display: inline-block;
+}
+
+
+.cart-drawer{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+}
+
+.cart-items{
+    height:60%;
+    overflow: scroll;
+}
+
+
+
+.cart-drawer{position: absolute;
+    right: -52px;
+    width: 30rem;
+    background-color: #fff;
+}
+
+.cart-drawer h1{color:white; background-color: red; font-size: 20px; padding: .5rem; margin-bottom: 0; font-family:'Times New Roman', Times, serif;}
+
+.cart-drawer h2{background-color: #000; color: #fff; font-size: 14px; padding: .5rem;}
+
+
+.cart-items::-webkit-scrollbar {width: 0px;}
